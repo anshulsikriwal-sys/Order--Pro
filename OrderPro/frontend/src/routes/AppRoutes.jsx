@@ -13,7 +13,6 @@ import Contact from "../pages/Contact";
 import Profile from "../pages/Profile";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
-import Wishlist from "../pages/Wishlist";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 
@@ -28,7 +27,6 @@ function AnimatedRoutes() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
 
-          <Route path="/wishlist" element={<Wishlist />} />
 
           <Route element={<ProtectedRoute />}>
             <Route path="/orders" element={<Orders />} />
