@@ -50,7 +50,7 @@ function Navbar() {
             <li><NavLink to="/" className={linkClass}>Home</NavLink></li>
             <li><NavLink to="/menu" className={linkClass}>Menu</NavLink></li>
             <li><NavLink to="/orders" className={linkClass}>Orders</NavLink></li>
-            <li><NavLink to="/wishlist" className={linkClass}>Wishlist</NavLink></li>
+            {/* <li><NavLink to="/wishlist" className={linkClass}>Wishlist</NavLink></li> */}
             <li><NavLink to="/contact" className={linkClass}>Contact</NavLink></li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ function Navbar() {
           <NavLink to="/" className={linkClass}>Home</NavLink>
           <NavLink to="/menu" className={linkClass}>Menu</NavLink>
           <NavLink to="/orders" className={linkClass}>Orders</NavLink>
-          <NavLink to="/wishlist" className={linkClass}>Wishlist</NavLink>
+          {/* <NavLink to="/wishlist" className={linkClass}>Wishlist</NavLink> */}
           <NavLink to="/contact" className={linkClass}>Contact</NavLink>
         </div>
       </div>
