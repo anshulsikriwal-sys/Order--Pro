@@ -46,7 +46,7 @@ export async function isBackendUp() {
 
 // ---- Auth ----
 export const authApi = {
-  register: (data) => http.post("/auth/register", data),
+  register: (data) => http.post("/auth/signIn", data),
   login: (data) => http.post("/auth/login", data)
 };
 
