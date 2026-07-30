@@ -34,13 +34,11 @@ function FavouriteFoods() {
           <p className="mt-3 text-base-content/60">Popular dishes our guests love.</p>
         </div>
 
-        <div ref={ref} className={`grid sm:grid-cols-2 lg:grid-cols-4 gap-5 ${visible ? "stagger" : ""}`}>
+        <div ref={ref} className={`grid sm:grid-cols-2 lg:grid-cols-4`}>
           {favourites.map((food) => (
             <div
               key={food.id}
-              className={`food-card mx-auto w-full card bg-base-200 shadow-xl overflow-hidden card-hover relative ${
-                visible ? "" : "reveal-out"
-              }`}
+              className={`food-card mx-auto w-full card bg-base-200 shadow-xl overflow-hidden card-hover relative`}
             >
               <button
                 onClick={() => handleWishlist(food)}
