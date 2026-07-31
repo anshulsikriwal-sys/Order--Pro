@@ -5,7 +5,7 @@ const TOKEN_KEY = "orderpro_token";
 
 export const http = axios.create({
   baseURL: API_BASE,
-  timeout: 10000
+  timeout: 6000
 });
 
 http.interceptors.request.use((config) => {
@@ -46,7 +46,7 @@ export async function isBackendUp() {
 
 // ---- Auth ----
 export const authApi = {
-  register: (data) => http.post("/auth/register", data),
+  register: (data) => http.post("/auth/signIn", data),
   login: (data) => http.post("/auth/login", data)
 };
 
