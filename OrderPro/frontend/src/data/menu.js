@@ -51,7 +51,7 @@ export const menuItems = [
     price: 449,
     rating: 4.8,
     description: "Loaded with fresh vegetables and cheese.",
-    image: "https://images.unsplash.com/photo-1593560708920-61dd98c8a0d1?auto=format&fit=crop&w=900&q=80"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqqE1x3gebeIBi6mN1fvscfhJUtRlen_Xip0ZqmjyGqw&s=10"
   },
   {
     id: 6,
@@ -150,7 +150,7 @@ export const menuItems = [
     price: 279,
     rating: 4.6,
     description: "Garlic, olive oil, chilli flakes and parmesan.",
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?auto=format&fit=crop&w=900&q=80"
+    image: "https://images.services.kitchenstories.io/UY89c4f471NaK1C-BQ07FGZ_qVA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R131-final-photo-3-sg.jpg"
   },
   {
     id: 17,
