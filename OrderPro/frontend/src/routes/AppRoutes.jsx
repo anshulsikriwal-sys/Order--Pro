@@ -40,7 +40,7 @@ function AnimatedRoutes() {
         <Route element={<AuthLayout />}>
           <Route element={<GuestRoute />}>
             <Route path="/login" element={<Login />} />
-            <Route path="/signIn" element={<Register />} />
+            <Route path="/register" element={<Register />} />
           </Route>
         </Route>
       </Routes>
