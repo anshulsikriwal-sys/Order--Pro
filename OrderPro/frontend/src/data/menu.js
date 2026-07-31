@@ -60,7 +60,7 @@ export const menuItems = [
     price: 199,
     rating: 4.6,
     description: "Crispy veggie patty with fresh salad.",
-    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80"
+    image: "https://static.wixstatic.com/media/91e241_c2c5919401694f3a8962262eee6ced6f~mv2.png/v1/fill/w_980,h_735,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/91e241_c2c5919401694f3a8962262eee6ced6f~mv2.png"
   },
   {
     id: 7,
