@@ -5,7 +5,7 @@ const TOKEN_KEY = "orderpro_token";
 
 export const http = axios.create({
   baseURL: API_BASE,
-  timeout: 6000
+  timeout: 10000
 });
 
 http.interceptors.request.use((config) => {
